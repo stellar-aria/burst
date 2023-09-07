@@ -1,0 +1,59 @@
+{
+  "C_Cpp.intelliSenseEngine" : "disabled",
+  "clangd.arguments": [
+    "-log=info",
+    "-pretty",
+    "--background-index",
+    "--query-driver=C:\\Users\\Kate\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-*.exe"
+  ],
+  "files.associations": {
+    "type_traits": "cpp",
+    "new": "cpp",
+    "algorithm": "cpp",
+    "cstddef": "cpp",
+    "array": "cpp",
+    "cmath": "cpp",
+    "limits": "cpp",
+    "optional": "cpp",
+    "cwchar": "cpp",
+    "tuple": "cpp",
+    "bit": "cpp",
+    "*.tcc": "cpp",
+    "bitset": "cpp",
+    "initializer_list": "cpp",
+    "ranges": "cpp",
+    "utility": "cpp",
+    "vector": "cpp",
+    "cstdlib": "cpp",
+    "numeric": "cpp",
+    "functional": "cpp",
+    "compare": "cpp",
+    "concepts": "cpp",
+    "cstdint": "cpp",
+    "list": "cpp",
+    "unordered_map": "cpp"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "googletest.failed",
+        "settings": {
+          "foreground": "#f00"
+        }
+      },
+      {
+        "scope": "googletest.passed",
+        "settings": {
+          "foreground": "#0f0"
+        }
+      },
+      {
+        "scope": "googletest.run",
+        "settings": {
+          "foreground": "#0f0"
+        }
+      }
+    ]
+  },
+  "clangd.checkUpdates": true
+}

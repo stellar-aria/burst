@@ -1,0 +1,5 @@
+---
+BasedOnStyle: Google
+AllowShortCaseLabelsOnASingleLine: 'true'
+AlwaysBreakTemplateDeclarations: 'true'
+ColumnLimit: 120
